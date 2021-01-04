@@ -1,0 +1,23 @@
+> dig -t ANY itwas.ru                                                                                                                      ~ 0
+
+; <<>> DiG 9.10.6 <<>> -t ANY itwas.ru
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 23370
+;; flags: qr rd ra; QUERY: 1, ANSWER: 4, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 4096
+;; QUESTION SECTION:
+;itwas.ru.			IN	ANY
+
+;; ANSWER SECTION:
+itwas.ru.		749	IN	A	185.199.110.153
+itwas.ru.		749	IN	A	185.199.111.153
+itwas.ru.		749	IN	A	185.199.108.153
+itwas.ru.		749	IN	A	185.199.109.153
+
+;; Query time: 20 msec
+;; SERVER: 192.168.0.1#53(192.168.0.1)
+;; WHEN: Mon Jan 04 17:49:05 GMT 2021
+;; MSG SIZE  rcvd: 101
